@@ -1,6 +1,11 @@
+import { Text, View } from "react-native"
+import Card from "../components/ui/Card"
+
 const GameOverScreen = () => {
   return (
-    <div>GameOverScreen</div>
+   <Card>
+    <Text>GameOverScreen</Text>
+   </Card>
   )
 }
 
